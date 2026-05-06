@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Interactivo de Mensajes</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="table">
+        <div class="table_title">
+            <h1>sistema interactivo de mensajes</h1>
+        </div>
+        <div class="table_interactive">
+            <button id="btn" class="btn_add" onclick="add_user()">Agregar usuario</button>
+        </div>
+        <div class="table_head">
+            <div class="table_head_item">ID</div>
+            <div class="table_head_item">NOMBRE</div>
+            <div class="table_head_item">EDAD</div>
+            <div class="table_head_item">ESTADO</div>
+        </div>
+        <div class="table_body" id="table_body">
+
+        </div>
+    </div>
+    <script src="sistema_interactivo.js"></script>
+</body>
+</html>
